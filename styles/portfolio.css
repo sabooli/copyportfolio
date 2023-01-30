@@ -19,7 +19,57 @@ p {
 }
 .title {
   background-color: darkgray;
-  margin-top: 135px;
+  margin-top: 100px;
   padding-top: 47px;
   padding-bottom: 47px;
+}
+figure {
+  margin: 100px 50px;
+}
+
+img {
+  width: 560px;
+  height: 560px;
+  background: url(image.png);
+  border-radius: 12px;
+}
+figcaption {
+  font-family: var(--default-font-family);
+  font-size: 28px;
+  line-height: 38.19px;
+  margin-top: 20px;
+  color: #272142;
+}
+
+@media (max-width: 960px) {
+  body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  h1 {
+    font-size: 42px;
+    line-height: 48px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  figcaption {
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 10px;
+  }
+  figure {
+    margin: 20px 20px;
+  }
+  .title {
+    margin-top: 35px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+  }
 }
