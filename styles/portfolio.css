@@ -18,9 +18,7 @@ h3 {
   font-weight: bold;
   font-size: 20px;
 }
-.about-title {
-  margin-top: 26px;
-}
+
 .me {
   font-family: var(--default-font-family);
   font-size: 64px;
@@ -42,7 +40,6 @@ p {
   font-family: var(--default-font-family);
   font-size: 24px;
   line-height: 35px;
-  text-align: justify;
 }
 .title {
   background-color: darkgray;
@@ -50,9 +47,7 @@ p {
   padding-top: 47px;
   padding-bottom: 47px;
 }
-figure {
-  margin: 100px 50px;
-}
+
 .myPhoto {
   width: 460px;
   height: 450px;
@@ -71,9 +66,29 @@ img {
 }
 figcaption {
   font-family: var(--default-font-family);
-  font-size: 28px;
-  line-height: 38.19px;
-  margin-top: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32.74px;
+  color: #272142;
+  text-align: justify;
+  padding-left: 22px;
+}
+.explain {
+  font-size: 16px;
+  line-height: 30px;
+  color: #272142;
+  text-align: justify;
+  padding-top: 20px;
+}
+.follow {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #272142;
+}
+i {
+  font-size: 16px;
+  line-height: 18.4px;
   color: #272142;
 }
 
