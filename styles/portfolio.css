@@ -70,8 +70,6 @@ figcaption {
   font-size: 24px;
   line-height: 32.74px;
   color: #272142;
-  text-align: justify;
-  padding-left: 22px;
 }
 .explain {
   font-size: 16px;
@@ -121,8 +119,8 @@ i {
     text-align: center;
   }
   figcaption {
-    font-size: 15px;
-    line-height: 18px;
+    font-size: 20px;
+    line-height: 30px;
     margin-top: 10px;
   }
   figure {
