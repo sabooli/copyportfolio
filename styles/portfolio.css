@@ -116,6 +116,10 @@ footer i:hover {
   color: white;
   background-color: #272142;
 }
+.source {
+  font-size: 18px;
+}
+
 .content {
   font-family: var(--default-font-family);
   font-size: 24px;

@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Contact Saba. Saba is a front-end engineer based in Iran"
+    />
+    <title>Contact Saba</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css"
@@ -32,10 +36,12 @@
           class="d-none d-md-block"
         />
         <ul>
-          <li><a href="/"> Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="work.html"> Work</a></li>
-          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="/" title="Homepage"> Home</a></li>
+          <li><a href="about.html" title="About Saba">About</a></li>
+          <li><a href="work.html" title="Saba's Works"> Work</a></li>
+          <li>
+            <a href="contact.html" class="active" title="Contact Me">Contact</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -76,17 +82,32 @@
       </div>
       <div class="container mt-5">
         <footer class="d-inline-flex justify-content-around">
-          <a href="https://www.facebook.com/saba.sabeti.7" target="_blank"
+          <a
+            href="https://www.facebook.com/saba.sabeti.7"
+            target="_blank"
+            title="Saba's Facebook"
             ><i class="fa-brands fa-facebook mx-3"></i
           ></a>
-          <a href="https://github.com/sabooli" target="_blank"
+          <a
+            href="https://github.com/sabooli"
+            target="_blank"
+            title="Saba's Github"
             ><i class="fa-brands fa-github mx-3"></i></a
           ><a
             href="https://www.linkedin.com/in/saba-sabetti-6853bb43/"
             target="_blank"
+            title="Saba's Linkedin"
             ><i class="fa-brands fa-linkedin mx-3"></i
           ></a>
         </footer>
+        <p class="source mb-4">
+          This project was coded by Saba Sabetti and it is
+          <a
+            href="https://github.com/sabooli/copyportfolio"
+            class="text-decoration-underline text-muted"
+            >open-sourced</a
+          >
+        </p>
       </div>
     </div>
   </body>
