@@ -41,7 +41,6 @@ nav .active {
 
 nav {
   padding: 50px 0;
-  
 }
 .me {
   font-family: var(--default-font-family);
@@ -100,6 +99,22 @@ figcaption {
   font-size: 18px;
   line-height: 24.55px;
   color: #662eed;
+}
+a {
+  text-decoration: none;
+  color: #272142;
+}
+footer {
+  padding: 40px 0;
+  transition: all 100ms ease-in-out;
+}
+footer i {
+  font-size: 18px;
+  padding: 10px;
+}
+footer i:hover {
+  color: white;
+  background-color: #272142;
 }
 .content {
   font-family: var(--default-font-family);
