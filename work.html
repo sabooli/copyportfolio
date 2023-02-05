@@ -25,10 +25,25 @@
   </head>
   <body>
     <div class="container">
+      <nav class="d-flex justify-content-between">
+        <img
+          src="styles/images/logo.png"
+          alt="logo"
+          class="d-none d-md-block"
+        />
+        <ul>
+          <li><a href="/"> Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="work.html" class="active"> Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
       <h1 class="mt-5 mb-5">My Best Projects</h1>
       <div>
         <figure class="mb-5">
-         <img src="styles/images/yogurt.png" class="img-fluid" alt="yogurt" />
+          <img src="styles/images/yogurt.png" class="img-fluid" alt="yogurt" />
           <h2 class="mt-3">Yogurt Project</h2>
           <h3 class="text-muted">Built with HTML and CSS</h3>
         </figure>
@@ -48,10 +63,9 @@
             alt="weather"
           />
           <h2 class="mt-3">Weather Project</h2>
-          <h3 class="text-muted">
-            Built with HTML, CSS and JS
-          </h3>
-        </figure></div>
+          <h3 class="text-muted">Built with HTML, CSS and JS</h3>
+        </figure>
+      </div>
     </div>
   </body>
 </html>
