@@ -1,5 +1,6 @@
 :root {
   --default-font-family: "Nunito", sans-serif;
+  --default-color: #272142;
 }
 body {
   text-align: center;
@@ -28,7 +29,7 @@ nav li {
 nav a {
   font-family: var(--default-font-family);
   font-weight: 700;
-  color: #272142;
+  color: var(--default-color);
   font-size: 16px;
   line-height: 24px;
   text-decoration: none;
@@ -38,7 +39,6 @@ nav a:hover,
 nav .active {
   color: #662eed;
 }
-
 nav {
   padding: 50px 0;
 }
@@ -90,7 +90,7 @@ figcaption {
   font-weight: 700;
   font-size: 24px;
   line-height: 32.74px;
-  color: #272142;
+  color: var(--default-color);
 }
 .contact {
   font-family: var(--default-font-family);
@@ -101,7 +101,7 @@ figcaption {
 }
 a {
   text-decoration: none;
-  color: #272142;
+  color: var(--default-color);
 }
 footer {
   padding: 40px 0;
@@ -113,12 +113,11 @@ footer i {
 }
 footer i:hover {
   color: white;
-  background-color: #272142;
+  background-color: var(--default-color);
 }
 .source {
   font-size: 18px;
 }
-
 .content {
   font-family: var(--default-font-family);
   font-size: 24px;
@@ -127,7 +126,7 @@ footer i:hover {
 .explain {
   font-size: 16px;
   line-height: 30px;
-  color: #272142;
+  color: var(--default-color);
   text-align: justify;
   padding-top: 20px;
 }
@@ -135,19 +134,18 @@ footer i:hover {
   font-size: 18px;
   line-height: 30px;
   font-weight: bold;
-  color: #272142;
+  color: var(--default-color);
 }
 i {
   font-size: 16px;
   line-height: 18.4px;
-  color: #272142;
+  color: var(--default-color);
 }
 
 @media (max-width: 960px) {
   body {
     text-align: center;
     padding: 0;
-    margin: 0 5px;
   }
   h1 {
     font-size: 42px;
@@ -167,7 +165,7 @@ i {
     margin-top: 60px;
   }
   .content {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
     padding: 0;
   }
